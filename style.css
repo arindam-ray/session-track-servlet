@@ -1,0 +1,25 @@
+body{
+background-color: #ffe5a4 ;
+color: rgb(92, 71, 2);
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+table{
+    width:50%;
+}
+
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f1bf40;  
+    color: rgb(10, 1, 1);
+    text-align: center;
+   }
+  
+  tr:nth-child(even){background-color: #f2f2f2;}
+  
+  tr:hover {background-color: #ddd;}
+ 
+  h1,h2{
+      text-align: center;
+  }

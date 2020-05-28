@@ -1,0 +1,25 @@
+<web-app>
+<display-name> Servlet - Session Information Display </display-name>
+<description>  This is the demonstration of session  </description>
+
+    <servlet>
+        <servlet-name>servlet1</servlet-name>
+        <servlet-class>SessionTrack</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>servlet1</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping> 
+    
+     
+    <session-config>
+   		<session-timeout>1</session-timeout>
+   </session-config>
+
+  <welcome-file-list>  
+   <welcome-file>hello</welcome-file>      
+  </welcome-file-list> 
+    
+     
+</web-app>
